@@ -6,10 +6,11 @@
 
         public MainPage()
         {
+            // This method connects the XAML UI with this C# code.
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object? sender, EventArgs e)
+        private void OnCounterClicked(object sender, EventArgs e)
         {
             count++;
 
